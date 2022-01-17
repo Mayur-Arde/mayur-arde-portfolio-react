@@ -1,24 +1,41 @@
-import logo from './logo.svg';
+import React, { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 
+import Navbar from './components/Navbar';
+import Home from './pages/Home/Home';
+import Footer from './components/Footer';
+import About from './pages/About/About';
+import Projects from './pages/Projects/Projects';
+import Blog from './pages/Blogs/Blogs';
+import Contact from './components/Contact';
+import Preloader from './components/Preloader';
+
 function App() {
+  const [load, setLoad] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoad(false);
+    }, 2000);
+    return clearTimeout(timer);
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Preloader load={load} />
+      <div className="App">
+        <Navbar />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/about" element={<About/>} />
+          <Route exact path="/projects" element={<Projects/>} />
+          <Route exact path="/blogs" element={<Blog/>} />
+        </Routes>
+        <Contact />
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
