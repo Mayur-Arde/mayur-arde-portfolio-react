@@ -1,9 +1,8 @@
 import React from 'react'
 
-function Preloader() {
+function Preloader({load}) {
   return (
-    <div>
-      Preloader
+    <div className={load ? 'preloader' :  'preloader-none'}>
     </div>
   )
 }
