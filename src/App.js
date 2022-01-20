@@ -27,6 +27,7 @@ function App() {
       <Preloader load={load} />
       <div className="App">
         <Navbar />
+      <main>
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/about" element={<About/>} />
@@ -34,6 +35,7 @@ function App() {
           <Route exact path="/blogs" element={<Blog/>} />
         </Routes>
         <Contact />
+      </main>
         <Footer />
       </div>
     </Router>
