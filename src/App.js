@@ -17,7 +17,7 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoad(false);
-    }, 1250);
+    }, 1000);
 
     return () => clearTimeout(timer);
   }, []);
@@ -27,7 +27,7 @@ function App() {
       <Preloader load={load} />
       <div className="App">
         <Navbar />
-      <main>
+      <main className='main'>
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/about" element={<About/>} />
