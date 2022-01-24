@@ -1,3 +1,15 @@
 .main{
-  /* padding: 3.5rem 1rem; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2.2rem 0.5rem;
+  /* width: 90vw; */
+  /* margin: 0 auto; */
+  /* height: 100vh; */
+}
+
+h2{
+   color: #cd5ff8;
+   letter-spacing: 3px;
 }

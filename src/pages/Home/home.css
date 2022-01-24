@@ -1,6 +1,6 @@
 .home {
   padding: 0 1rem;
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,7 +8,6 @@
 }
 
 .hero-section {
-  height: 92vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,7 +18,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 0 3.2rem 1rem;
+  padding: 0 3.5rem 6rem;
 }
 
 @media all and (max-width: 568px) {
@@ -37,7 +36,7 @@
   }
 }
 
-h1 {
+.home h1 {
   font-size: 2.5rem;
   color: #fff;
   text-shadow: 0px 0px 10px #000;
@@ -51,10 +50,10 @@ h1 {
   text-transform: uppercase;
 }
 
-h2 {
-  color: #cd5ff8;
-  font-size: 1.4rem;
-  letter-spacing: 3px;
+
+.home h2 {
+  font-size: 1.5rem;
+  text-shadow: 0px 0px 10px #000;
 }
 
 .name {
