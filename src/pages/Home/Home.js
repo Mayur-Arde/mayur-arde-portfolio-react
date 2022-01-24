@@ -18,10 +18,7 @@ function Home() {
               </h1>
               <h2>Full Stack Web Developer</h2>
             </div>
-            <img src={heroMain} alt="" className="hero-img" />
-            {/* <div className="wave">
-              <img src={wave} alt="" />
-            </div> */}
+            <img src={heroMain} alt="" className="hero-img"/>
           </div>
         </div>
         {/* <Home2 /> */}
