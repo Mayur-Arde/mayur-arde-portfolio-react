@@ -9,7 +9,7 @@ function Skills() {
       <div className="box-content">
         {skills.map((skill, index) => {
           return <div className="box-card" key={index}>
-              <skill.icon className="box-icon"/>
+              <skill.icon className="box-icon" onMouseover=''/>
           </div>
         })}
       </div>

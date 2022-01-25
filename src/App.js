@@ -34,7 +34,7 @@ function App() {
           <Route exact path="/projects" element={<Projects/>} />
           <Route exact path="/blogs" element={<Blog/>} />
         </Routes>
-        <Contact />
+        {/* <Contact /> */}
       </main>
         <Footer />
       </div>
