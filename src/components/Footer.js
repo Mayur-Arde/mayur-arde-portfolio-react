@@ -31,7 +31,7 @@ function Footer() {
           <a
             href="https://www.instagram.com/mayur.arde_/"
             target="_blank"
-            rel="noopener"
+            rel="noreferrer"
             alt="Instagram"
           >
             <FaInstagram className="" />
