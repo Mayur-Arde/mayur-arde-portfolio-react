@@ -1,5 +1,4 @@
-import React, {useEffect} from 'react';
-import { AiOutlineArrowUp } from 'react-icons/ai';
+import React from 'react';
 import {FaGithub, FaLinkedin, FaInstagram} from 'react-icons/fa';
 import {SiHashnode} from 'react-icons/si';
 import {FiSend} from 'react-icons/fi';
