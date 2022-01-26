@@ -1,16 +1,16 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { AiOutlineArrowUp } from 'react-icons/ai';
 import {FaGithub, FaLinkedin, FaInstagram} from 'react-icons/fa';
 import {SiHashnode} from 'react-icons/si';
 import {FiSend} from 'react-icons/fi';
 import './footer.css';
-function Footer() {
+
+
+function Footer({load}) {
+
   return (
     <>
       <footer className="footer">
-        <a href="#" className="up-btn-wrapper" alt="Go to top">
-          <AiOutlineArrowUp className="up-btn" />
-        </a>
         <div className="footer-icons">
           <a
             href="https://github.com/Mayur-Arde"

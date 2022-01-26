@@ -36,7 +36,7 @@ function App() {
         </Routes>
         {/* <Contact /> */}
       </main>
-        <Footer />
+        <Footer load= {load} />
       </div>
     </Router>
   );
