@@ -13,7 +13,7 @@ function Projects() {
             <h4>{project.title}</h4>
             <p>{project.description}</p>
           <div className="project-links">
-            <a href={project.link} target='_blank' rel='noreferrer' className='live-btn btn'>
+            <a href={project.link} target='_blank' rel='noreferrer' target='_blank' className='live-btn btn'>
               preview live
             </a>
             <a href={project.github} target='_blank' rel='noreferrer' className='github-btn btn'>
