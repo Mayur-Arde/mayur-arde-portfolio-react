@@ -1,12 +1,12 @@
 .scroll {
   transition: all 0.3s ease-out 0s;
-  background-color: #212038;
+  background-color: #212038cd;
   position: fixed;
   width: 100%;
   z-index: 10;
 }
 .navbar {
-  padding: 1.1rem 8rem;
+  padding: 0.66rem 8rem;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;

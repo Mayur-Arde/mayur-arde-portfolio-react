@@ -4,9 +4,10 @@
   align-items: center;
   justify-content: center;
   padding: 2.2rem 0.5rem;
-  /* width: 90vw; */
-  /* margin: 0 auto; */
-  /* height: 100vh; */
+}
+
+.App{
+  background-image: url('https://ak.picdn.net/shutterstock/videos/1026936203/thumb/1.jpg');
 }
 
 h2{

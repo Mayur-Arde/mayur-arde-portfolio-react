@@ -18,13 +18,13 @@ function AboutCard() {
               worked on multiple projects.
             </p> 
             <p className="card-text">
-            I am currently Learn MERN Full Stack.
+            I am currently Learning Node js and MongoDb Full Stack.
             </p>
   
             <p className="card-text">Apart from coding, some other activities that I love to do!</p>
             <ul>
               <li>🟣 Play Pc Gaming, especially with friends.</li>
-              <li>🟣 Finance learing to start Investing.</li>
+              <li>🟣 Finance learning to start Investing.</li>
             </ul>
           </div>
           <img
