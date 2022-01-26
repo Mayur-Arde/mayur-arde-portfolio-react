@@ -1,6 +1,6 @@
 import React from 'react';
 import { AiOutlineArrowUp } from 'react-icons/ai';
-import {FaGithub, FaLinkedin, FaInstagram, FaSend} from 'react-icons/fa';
+import {FaGithub, FaLinkedin, FaInstagram} from 'react-icons/fa';
 import {SiHashnode} from 'react-icons/si';
 import {FiSend} from 'react-icons/fi';
 import './footer.css';
@@ -15,7 +15,7 @@ function Footer() {
           <a
             href="https://github.com/Mayur-Arde"
             target="_blank"
-            rel="noopener"
+            rel="noreferrer"
             alt="Github"
           >
             <FaGithub className="" />
@@ -23,7 +23,7 @@ function Footer() {
           <a
             href="https://www.linkedin.com/in/mayur-arde/"
             target="_blank"
-            rel="noopener"
+            rel="noreferrer"
             alt="linkedin"
           >
             <FaLinkedin className="" />
@@ -39,7 +39,7 @@ function Footer() {
           <a
             href="https://hashnode.com/@devmayur"
             target="_blank"
-            rel="noopener"
+            rel="noreferrer"
             alt="Hashnode"
           >
             <SiHashnode className="" />
@@ -47,7 +47,7 @@ function Footer() {
           <a
             href="mailto: mayurarde8@gmail.com"
             target="_blank"
-            rel="noopener"
+            rel="noreferrer"
             alt="Mail"
           >
             <FiSend className="" />

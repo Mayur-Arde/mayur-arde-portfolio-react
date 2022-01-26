@@ -1,8 +1,5 @@
 import React from 'react';
-import Tilt from 'react-parallax-tilt';
-import avatar from '../../Assets/avatar.svg';
 import heroMain from '../../Assets/home-main.svg';
-import wave from '../../Assets/wave.svg';
 import './home.css';
 
 function Home() {

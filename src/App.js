@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 import About from './pages/About/About';
 import Projects from './pages/Projects/Projects';
 import Blog from './pages/Blogs/Blogs';
-import Contact from './components/Contact';
+// import Contact from './components/Contact';
 import Preloader from './components/Preloader';
 
 function App() {
