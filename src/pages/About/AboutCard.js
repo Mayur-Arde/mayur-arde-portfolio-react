@@ -1,4 +1,5 @@
 import React from 'react';
+import Tilt from 'react-parallax-tilt';
 
 function AboutCard() {
   return (
@@ -27,11 +28,13 @@ function AboutCard() {
               <li>🟣 Finance learning to start Investing.</li>
             </ul>
           </div>
+          <Tilt>
           <img
             src="https://www.soumya-jit.tech/static/media/about.aee0f771.png"
             alt=""
             className="about-img"
           />
+          </Tilt>
         </div>
       </div>
     </>

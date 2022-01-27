@@ -1,7 +1,7 @@
 import React from 'react';
 import heroMain from '../../Assets/home-main.svg';
 import './home.css';
-
+import resume from '../../Assets/Resume/Mayur-Arde-Full-Stack.pdf';
 function Home() {
   return (
     <>
@@ -14,8 +14,11 @@ function Home() {
                 I'm <strong className="name"> Mayur Arde</strong>
               </h1>
               <h2>Full Stack Web Developer</h2>
+              <a href={resume} className="btn resume-btn" target="_blank" rel="noreferrer">
+                Reasume
+              </a>
             </div>
-            <img src={heroMain} alt="" className="hero-img"/>
+            <img src={heroMain} alt="" className="hero-img" />
           </div>
         </div>
         {/* <Home2 /> */}

@@ -5,7 +5,7 @@ function Github() {
   return (
     <div style={{ justifyContent: "center", paddingBottom: "10px" }}>
       <h2 className="project-heading" style={{ paddingBottom: "20px" }}>
-        Days I <span className="purple">Code</span>
+        Days I Code
       </h2>
       <GitHubCalendar
         username="Mayur-Arde"

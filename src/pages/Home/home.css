@@ -60,6 +60,21 @@
   color: #cd5ff8;
 }
 
+.resume-btn{
+  background-color: #d8d8d8;
+  color: rgb(0, 0, 0);
+  font-size: 1.1rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+  margin-top: 1.2rem;
+  letter-spacing: 1px;
+}
+
+.resume-btn:hover{
+  background-color: #cd5ff8;
+  transform: scale(1.01);
+}
+
 .hero-img {
   width: 40%;
   height: auto;
@@ -70,5 +85,17 @@
   .hero-img {
     width: 50%;
     height: auto;
+  }
+
+  .home h1 {
+    font-size: 2rem;
+  }
+
+  .home h2 {
+    font-size: 1.2rem;
+  }
+
+  .hero-img{
+    width: 70%;
   }
 }

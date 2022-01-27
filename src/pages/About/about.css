@@ -18,7 +18,7 @@
 }
 
 .about-img {
-  width: 45%;
+  width: 85%;
   height: 100%;
   object-fit: cover;
 }
@@ -92,9 +92,10 @@ span {
   
   .container-card{
     padding: 0 0.5rem;
+    height: auto;
   }
   .about-img{
-    width: 70%;
+    width: 65%;
   }
   
   .container-card{
@@ -128,4 +129,8 @@ span {
   .container-card{
     height: 100vh;
   }
+  .about-img{
+    width: 80%;
+  }
+  
 }
