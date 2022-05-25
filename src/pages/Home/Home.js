@@ -15,7 +15,7 @@ function Home() {
               </h1>
               <h2>Full Stack Web Developer</h2>
               <a href={resume} className="btn resume-btn" target="_blank" rel="noreferrer">
-                Reasume
+              Resume
               </a>
             </div>
             <img src={heroMain} alt="" className="hero-img" />
